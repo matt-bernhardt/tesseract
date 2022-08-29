@@ -8,3 +8,8 @@
 ## 0.1.1
 
 * Adding information to gemspec, and this changelog.
+
+## 0.2.0
+
+* Adds sassc to gemspect
+* Adds vendor/assets directory with images and stylesheets
