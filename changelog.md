@@ -43,3 +43,12 @@ Starting to add layout templates, specifically:
 * Implementing sites are still required to load the libraries-main
   stylesheet on their own, via the `@import` in their own stylesheet, in order
   to take advantage of any SCSS variables defined by this gem.
+
+## 0.3.1
+
+This adds the rest of the layout templates, which are loaded in the body
+of the application.
+
+* Because the link helper class has not been introduced yet, the site_nav
+  partial has been modified to call the Rails link_to function, rather
+  than the nav_link_to function that will come with that helper.
