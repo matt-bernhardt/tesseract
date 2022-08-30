@@ -19,3 +19,8 @@
 * Adds precompile step to gem, allowing implementing apps to see
   vendor/assets/images content without having to add them to their own
   manifests.
+
+## 0.2.2
+
+* Adds the libraries-main stylesheet to precompilation in
+  /lib/tesseract/engine.rb.
