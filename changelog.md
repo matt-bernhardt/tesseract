@@ -13,3 +13,9 @@
 
 * Adds sassc to gemspect
 * Adds vendor/assets directory with images and stylesheets
+
+## 0.2.1
+
+* Adds precompile step to gem, allowing implementing apps to see
+  vendor/assets/images content without having to add them to their own
+  manifests.
