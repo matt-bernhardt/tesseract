@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 7.0.3.1"
   spec.add_dependency "sassc-rails", "~> 2"
+  spec.add_dependency 'debug', '~> 1'
 end

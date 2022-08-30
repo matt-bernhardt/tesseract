@@ -24,3 +24,9 @@
 
 * Adds the libraries-main stylesheet to precompilation in
   /lib/tesseract/engine.rb.
+
+## 0.2.3
+
+* This takes a baby step in the direction of testing for the precompilation,
+  but I haven't worked out the syntax yet. So the test is skipped, with a
+  long comment talking about the testing intent.
