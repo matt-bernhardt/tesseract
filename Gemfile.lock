@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tesseract (0.2.3)
+    tesseract (0.3.0)
       debug (~> 1)
       rails (>= 7.0.3.1)
       sassc-rails (~> 2)

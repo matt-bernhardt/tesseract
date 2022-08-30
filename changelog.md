@@ -30,3 +30,16 @@
 * This takes a baby step in the direction of testing for the precompilation,
   but I haven't worked out the syntax yet. So the test is skipped, with a
   long comment talking about the testing intent.
+
+## 0.3.0
+
+Starting to add layout templates, specifically:
+* Moves application.html.erb from /app/views/layouts/tesseract/ to
+  /app/views/layouts/ (up one directory). It was not loaded in the original
+  location.
+* Adds the head partial, which is copy-pasted from the original theme gem
+  (adding only the new csp_meta_tag directive)
+* Adds a skip tag and wrap-page div to the application template.
+* Implementing sites are still required to load the libraries-main
+  stylesheet on their own, via the `@import` in their own stylesheet, in order
+  to take advantage of any SCSS variables defined by this gem.
