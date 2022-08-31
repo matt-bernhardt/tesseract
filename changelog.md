@@ -67,3 +67,9 @@ class ApplicationController < ActionController::Base
   helper Tesseract::Engine.helpers
   ...
 end
+```
+
+## 0.5.0
+
+This loosens the Rails requirement for this gem, allowing it to be used by
+apps from Rails 6.x and 7.x.
