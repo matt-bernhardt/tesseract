@@ -52,3 +52,18 @@ of the application.
 * Because the link helper class has not been introduced yet, the site_nav
   partial has been modified to call the Rails link_to function, rather
   than the nav_link_to function that will come with that helper.
+
+## 0.4.0
+
+This adds the last portion of the theme gem, the Link Helper.
+
+* The link helper provides a single public method, nav_link_to, which is a
+  navigation-specific link builder.
+* Apps which implement this gem will need to load this helper explicitly in
+  their application controller, via:
+
+```
+class ApplicationController < ActionController::Base
+  helper Tesseract::Engine.helpers
+  ...
+end
